@@ -32,6 +32,7 @@ BUILD		:=	build
 SOURCES		:=	source
 DATA		:=	data
 INCLUDES	:=	include
+NO_SMDH		:= 	1
 #ROMFS		:=	romfs
 
 #---------------------------------------------------------------------------------
