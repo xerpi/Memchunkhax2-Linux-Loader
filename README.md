@@ -19,7 +19,7 @@ The bootrate of the exploits is right now pretty reliable, but the app fails to 
 
 Target | Exploit name | Support | Credits
 ------------ | ------------- | ------------- | -------------
-ARM11 Kernel | Memchunkhax II | All 3DSes Ver. <= 10.3 | Reproduction of the exploit presented [here](https://media.ccc.de/v/32c3-7240-console_hacking). Credit goes so to derrek, smea and plutoo, while this implementation has been realized with the help of Steveice10, julian20, MassExplosion and motezazer.
+ARM11 Kernel | Memchunkhax II | All 3DSes Ver. <= 10.3 | Reproduction of the exploit presented [here](https://media.ccc.de/v/32c3-7240-console_hacking). Credit goes so to derrek, smea and plutoo, while this implementation has been realized with the help of Steveice10, julian20, MassExplosion, TuxSH and motezazer.
 
 
 

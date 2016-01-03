@@ -11,7 +11,7 @@
 		and smea showed here:
 		https://media.ccc.de/v/32c3-7240-console_hacking
 			realized with the help of Steveice10, julian20, MassExplosion,
-			motezazer
+			motezazer, TuxSH.
 	
 	Success rate :
 		Still unstable, but with a reliability around 80%.
