@@ -1,15 +1,19 @@
 #include <3ds.h>
-
 #include <stdio.h>
-
-#include "memchunkhax2.h"
+#include "libsu.h"
 
 int main(int argc, char **argv) {
     gfxInitDefault();
+	sdmcInit();
     consoleInit(GFX_TOP, NULL);
-
-    execute_memchunkhax2();
-
+	
+	printf("Arm11 exploit demo, get access to am:u service\n\n");
+    if(suInit() == 0)
+	{
+		Result res = amInit();
+		printf("am:u init : %08X\n", res);
+	}
+	
     printf("Press START to exit.\n");
 
     while(aptMainLoop()) {
@@ -24,5 +28,7 @@ int main(int argc, char **argv) {
     }
 
     gfxExit();
+	sdmcExit();
+	amExit();
     return 0;
 }
