@@ -1,13 +1,8 @@
-# Lib SuperUser for Nintendo 3DS
+# Nintendo 3DS Linux Loader using Memchunkhax II
 
 ## What this is
 
-This lib is meant to gather various exploits of the system and use them to offer the user an elevation of his privileges over the console, from ARM11 and hopefully ARM9 side.
-
-The term takes inspiration from the administrator privileged user nickname for UNIX systems.
-
-It is currently a work in progress project, that will be implementing new exploits when they will be public available, trying to support
-the latest system version possible.
+Linux Loader based on [SuperUserLib3DS](https://github.com/delebile/SuperUserLib3DS)
 
 ## Stability
 
