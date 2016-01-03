@@ -223,9 +223,9 @@ int memchunkhax2()
 	if(kObjHandle != 0) svcCloseHandle(kObjHandle);
 	if(vtable) linearFree(vtable);
 	
+	srvExit();
 	while(kernelHacked != 0) svcSleepThread(1000000);
 	debugPrint("#8 : Grant access to all services and SVCs...\n");
-	srvExit();
     srvInit();
 	svcSleepThread(0x4000000LL);
 	APT_SetAppCpuTimeLimit(80);
